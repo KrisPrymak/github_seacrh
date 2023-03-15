@@ -1,0 +1,37 @@
+.formSearch {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.inputSearch {
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid aquamarine;
+    background-color: #000000;
+    color: #FFFFFF;
+    width: 300px;
+}
+
+.buttonSearch {
+    background-color: aquamarine;
+    color: #000000;
+    border: none;
+    border-radius: 20px;
+    margin-left: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.buttonSearch:hover {
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.buttonSearch:disabled {
+    color: #000000;
+}
+
+.hidden {
+    display: none;
+}

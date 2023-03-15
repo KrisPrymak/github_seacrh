@@ -1,0 +1,45 @@
+.resultList {
+    color: #FFFFFF;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
+.repoItem {
+    display: flex;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgba(255, 255, 255, .5);
+
+}
+.repoItem:not(:last-child) {
+    margin-bottom: 40px;
+}
+.repoItem__img {
+    width: 100px;
+    height: 100px;
+    margin-right: 30px;
+    background-color: #FFFFFF;
+    border-radius: 50px;
+}
+.repoItem__info {
+    display: flex;
+    flex-direction: column;
+}
+.repoItem__link {
+    color: aquamarine;
+    cursor: pointer;
+    text-decoration: none;
+    word-break: break-all;
+}
+
+.repoItem__link:hover {
+    text-decoration: underline;
+}
+
+.repoItem__language, .repoItem__description {
+    color: #FFFFFF;
+    margin-top: 20px;
+    word-break: break-all;
+}
